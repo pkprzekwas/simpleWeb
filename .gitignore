@@ -13,3 +13,4 @@ simpleWeb
 *.out
 
 .idea/
+data/*
