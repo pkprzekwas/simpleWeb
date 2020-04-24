@@ -1,0 +1,13 @@
+steps:
+- name: step1
+  dockerRun:
+    image: busybox
+    script: "echo 'Hello world!'"
+
+- name: step2
+  dockerRun:
+    image: busybox
+    script: |
+      echo "step 2"
+      echo "work, work, work"
+      env
