@@ -2,7 +2,7 @@ steps:
 - name: step1
   dockerRun:
     image: busybox
-    script: "echo 'Hello world!'"
+    script: "echo 'Hello world from dev!'"
 
 - name: step2
   dockerRun:
